@@ -1,0 +1,13 @@
+enforceDefine: true
+waitSeconds: 10
+paths:
+  'jquery': 'jquery'
+  'domReady': 'requirejs_plugins/domReady'
+shim:
+  'jquery':
+    exports: 'jQuery'
+map:
+  '*':
+    'jquery': 'adapters/jquery-adapter'
+  'adapters/jquery-adapter':
+    'jquery': 'jquery'

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
 
-  mount SlickgridRequirejsRails::Engine => "/slickgrid-requirejs-rails"
+  root to: 'examples#simple'
+
+  mount SlickgridRequirejsRails::Engine => '/slickgrid-requirejs-rails'
+
+
 end

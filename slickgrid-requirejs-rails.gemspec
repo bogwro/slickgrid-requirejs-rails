@@ -19,9 +19,16 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'railties', '>= 3.1.1'
-  s.add_dependency 'coffee-rails'
+  s.add_dependency 'sass-rails'
+  s.add_dependency 'jquery-rails'
+  s.add_dependency 'jqueryui-requirejs-rails'
   s.add_dependency 'requirejs-rails'
 
   s.add_development_dependency 'rails', '>= 3.1.1'
-  #s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'coffee-rails'
+  s.add_development_dependency 'requirejs-rails-plugins'
+  s.add_development_dependency 'exception_notification'
+  s.add_development_dependency 'better_errors'
+
 end
