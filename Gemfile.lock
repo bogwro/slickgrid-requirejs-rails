@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    slickgrid-requirejs-rails (1.1.2)
+    slickgrid-requirejs-rails (1.2.0)
       jquery-rails
       jqueryui-requirejs-rails
       railties (>= 3.1.1)
