@@ -12,7 +12,7 @@ group :assets do
   gem 'jqueryui-requirejs-rails'
 end
 
-gem 'requirejs-rails'
+gem 'requirejs-rails', :git => 'https://github.com/bogwro/requirejs-rails.git'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'requirejs-rails-plugins'
