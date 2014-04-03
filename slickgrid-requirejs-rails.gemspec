@@ -24,11 +24,13 @@ Gem::Specification.new do |s|
   s.add_dependency 'jqueryui-requirejs-rails'
   s.add_dependency 'requirejs-rails'
 
-  s.add_development_dependency 'rails', '>= 3.1.1'
+  s.add_development_dependency 'rails', '~> 3.2.16'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'requirejs-rails-plugins'
   s.add_development_dependency 'exception_notification'
   s.add_development_dependency 'better_errors'
+  s.add_development_dependency 'quiet_assets'
+  s.add_development_dependency 'thin'
 
 end
