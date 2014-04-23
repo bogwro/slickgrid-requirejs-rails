@@ -22,7 +22,11 @@
         "script",
         "app/controllers",
         "app/helpers",
-        "app/views"
+        "app/views",
+        "Gemfile",
+        "Gemfile.lock",
+        "Rakefile",
+        "**/.gemspec"
     ],
     "dependencies": {
         "requirejs": "*"
