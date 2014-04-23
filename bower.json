@@ -15,7 +15,14 @@
         "node_modules",
         "bower_components",
         "test",
-        "tests"
+        "tests",
+        "config",
+        "lib",
+        "pkg",
+        "script",
+        "app/controllers",
+        "app/helpers",
+        "app/views"
     ],
     "dependencies": {
         "requirejs": "*"
